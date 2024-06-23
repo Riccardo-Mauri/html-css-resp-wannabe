@@ -148,6 +148,24 @@ SEZIONE RESPONSIVE FINO A 768PX
         align-items: center;
      }
  }
+ @media screen and (max-width: 480px) {
+    .lessons .col{
+        width: 100%;
+     }
+     .steps .col{
+        width: 100%;
+     }
+     .why-us .col{
+        width: 100%;
+     }
+     
+ }
+ 
+ @media screen and (max-width: 480px) {
+    .text{
+        margin-bottom: 2rem;
+     }
+    }
 
 @media screen and (max-width: 480px){
     .why-us{
