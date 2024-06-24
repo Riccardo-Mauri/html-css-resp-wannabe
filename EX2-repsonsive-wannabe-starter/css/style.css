@@ -143,9 +143,8 @@ SEZIONE RESPONSIVE FINO A 768PX
  */
 @media screen and (max-width: 480px) {
     .row{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+       flex-wrap: wrap; 
+       
      }
  }
  @media screen and (max-width: 480px) {
@@ -165,10 +164,14 @@ SEZIONE RESPONSIVE FINO A 768PX
     .text{
         margin-bottom: 2rem;
      }
-    }
 
-@media screen and (max-width: 480px){
-    .why-us{
+     .why-us{
         background-color: #222222;
+        padding-top: 3rem;
     }
+    .why-us, .steps{
+        margin-bottom: 0;
+    }
+    
 }
+
